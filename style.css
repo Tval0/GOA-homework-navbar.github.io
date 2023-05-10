@@ -1,0 +1,30 @@
+nav {
+    background-color: #36522a;/* ფონის ფერი*/ 
+    overflow: hidden; /*გადმოდენილ კონტენტს ფარავს*/
+  }
+  
+  nav ul {
+    list-style-type: none; /*ვარესეტებთ ლისტის ელემენტებს*/
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left; /*მარცხნივ დალაგება*/
+  }
+  
+  nav a {
+    
+    color: #f2f2f2; /*ცვლის ფერს*/
+    text-align: center; /*ტექსტის გაცენტრვა*/
+    padding: 14px 16px; /*დაშორება*/
+    text-decoration:none; /*ხაზის გაქრობა*/
+    transition: 1s;
+  
+  }
+  
+  nav a:hover {
+    background-color: #ffffff; /*უკანა ფონის ფერი*/
+    
+  }
+  
